@@ -39,3 +39,14 @@ Add a Device name such as ABC-%SERIAL%<br/>
 Add a Wi-Fi profile if possible<br/>
 <br/>
 
+**Add drivers to the USB build**<br/>
+Mount the wim file.<br/>
+Dism /Mount-Image /ImageFile:"F:\sources\boot.wim" /index:1 /MountDir:"C:\Temp\Offline"<br/>
+<br/>
+Add drivers.<br/>
+Dism /Add-Driver /Image:"C:\Temp\Offline" /Driver:"C:\SWSETUP\SP78930" /Recurse<br/>
+<br/>
+Then unmount the image and that's it.<br/>
+Dism /Unmount-Image /Mountdir:"C:\Temp\Offline" /commit<br/>
+<br/>
+<br/>
