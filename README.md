@@ -1,6 +1,6 @@
 # Windows-10-with-Office-USB
-Install Windows 10 including Office with a USB
-
+**Install Windows 10 including Office with a USB**<br/>
+<br/>
 
 **Create Windows 10 installation media**<br/>
 Download the Windows 10 Media Creation tool<br/>
@@ -9,29 +9,23 @@ Create a USB installer<br/>
 <br/>
 <br/>
 
-**Create an Office customisation XML file**
+**Create an Office customisation XML file**<br/>
+https://config.office.com/<br/>
+A sample file is in this repository<br/>
+<br/>
+<br/>
 
-https://config.office.com/
+**Download Office using the Office Deployment Tool (ODT)**<br/>
+Link to the Office Deployment tool<br/>
+https://www.microsoft.com/en-us/download/details.aspx?id=49117<br/>
+<br/>
+<br/>
 
-A sample file is in this repository
-
-
-
-**Download Office using the Office Deployment Tool (ODT)**
-
-Link to the Office Deployment tool
-
-https://www.microsoft.com/en-us/download/details.aspx?id=49117
-
-
-
-**Install the Windows Configuration Designer to a Windows 10 PC for the company**
-
-Download and install the tool to a Windows 10 PC
-
-https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-install-icd
-
-
+**Install the Windows Configuration Designer to a Windows 10 PC for the company**<br/>
+Download and install the tool to a Windows 10 PC<br/>
+https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-install-icd<br/>
+<br/>
+<br/>
 
 https://docs.microsoft.com/en-gb/archive/blogs/beanexpert/how-to-install-office-using-a-provisioning-package
 
