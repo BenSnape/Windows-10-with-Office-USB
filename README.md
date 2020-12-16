@@ -1,8 +1,9 @@
 # Windows-10-with-Office-USB
 Install Windows 10 including Office with a USB
 
-# Create Windows 10 installation media
+**Create Windows 10 installation media**
 Download the Windows 10 Media Creation tool
+
 https://www.microsoft.com/en-gb/software-download/windows10
 
 Create a USB installer
