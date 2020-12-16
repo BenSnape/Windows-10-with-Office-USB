@@ -34,7 +34,7 @@ https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/pro
 **Create an advanced installation using the steps in this link**<br/>
 https://docs.microsoft.com/en-gb/archive/blogs/beanexpert/how-to-install-office-using-a-provisioning-package<br/>
 <br/>
-If you an Azure AD enrollment the token lasts for 6 months<br/>
+If you add an Azure AD enrollment the token lasts for 6 months<br/>
 Add a Device name such as ABC-%SERIAL%<br/>
 Add a Wi-Fi profile if possible<br/>
 <br/>
