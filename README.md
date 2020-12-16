@@ -19,6 +19,10 @@ A sample file is in this repository<br/>
 Link to the Office Deployment tool<br/>
 https://www.microsoft.com/en-us/download/details.aspx?id=49117<br/>
 <br/>
+Delete all the provided .xml files and copy the .xml file created previously to the folder<br/>
+<br/>
+When the installation is downloaded zip the whole folder to a file called O365.zip<br/>
+<br/>
 <br/>
 
 **Install the Windows Configuration Designer to a Windows 10 PC for the company**<br/>
