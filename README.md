@@ -50,3 +50,6 @@ Then unmount the image and that's it.<br/>
 Dism /Unmount-Image /Mountdir:"C:\Temp\Offline" /commit<br/>
 <br/>
 <br/>
+
+**Clone USB**<br/>
+https://www.osforensics.com/tools/write-usb-images.html<br/>
