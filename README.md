@@ -25,7 +25,8 @@ When the installation is downloaded zip the whole folder to a file called O365.z
 <br/>
 <br/>
 
-**Install the Windows Configuration Designer to a Windows 10 PC for the company**<br/>
+**Install the Windows Configuration Designer to a Windows 
+10 PC for the company**<br/>
 Download and install the tool to a Windows 10 PC<br/>
 https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-install-icd<br/>
 <br/>
@@ -34,11 +35,21 @@ https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/pro
 **Create an advanced installation using the steps in this link**<br/>
 https://docs.microsoft.com/en-gb/archive/blogs/beanexpert/how-to-install-office-using-a-provisioning-package<br/>
 <br/>
+<br/>
+**Install several apps**
+To install multiple applications use the following bat file
+https://github.com/BenSnape/Windows-10-with-Office-USB/blob/main/InstallApps.bat
+Use the follwoing in the CommandLine entry
+cmd /c InstallApps.bat
+<br/>
+<br/>
 If you add an Azure AD enrollment the token lasts for 6 months<br/>
 Add a Device name such as ABC-%SERIAL%<br/>
 Add a Wi-Fi profile if possible<br/>
 <br/>
-
+<br/>
+Keep the .ppkg file below 4GB so the USB does not need and additional NTFS formated disk
+<br/>
 **Add drivers to the USB build**<br/>
 Mount the wim file.<br/>
 Dism /Mount-Image /ImageFile:"F:\sources\boot.wim" /index:1 /MountDir:"C:\Temp\Offline"<br/>
