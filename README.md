@@ -36,11 +36,11 @@ https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/pro
 https://docs.microsoft.com/en-gb/archive/blogs/beanexpert/how-to-install-office-using-a-provisioning-package<br/>
 <br/>
 <br/>
-**Install several apps**
-To install multiple applications use the following bat file
-https://github.com/BenSnape/Windows-10-with-Office-USB/blob/main/InstallApps.bat
-Use the follwoing in the CommandLine entry
-cmd /c InstallApps.bat
+**Install several apps**<br/>
+To install multiple applications use the following bat file<br/>
+https://github.com/BenSnape/Windows-10-with-Office-USB/blob/main/InstallApps.bat<br/>
+Use the follwoing in the CommandLine entry <br/>
+cmd /c InstallApps.bat<br/>
 <br/>
 <br/>
 If you add an Azure AD enrollment the token lasts for 6 months<br/>
