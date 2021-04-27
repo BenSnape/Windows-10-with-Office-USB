@@ -60,6 +60,7 @@ Dism /Add-Driver /Image:"C:\Temp\Offline" /Driver:"C:\SWSETUP\SP78930" /Recurse<
 Then unmount the image and that's it.<br/>
 Dism /Unmount-Image /Mountdir:"C:\Temp\Offline" /commit<br/>
 <br/>
+<br/>HP Driver pack https://hpia.hpcloud.hp.com/downloads/driverpackcatalog/HP_Driverpack_Matrix_x64.html
 <br/>
 
 **Clone USB**<br/>
